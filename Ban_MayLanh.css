@@ -1,0 +1,64 @@
+body{
+    background-color: seashell;
+}
+
+header{
+    background-color: lightblue;
+    height: 130px;
+}
+
+.row{
+    background-color: white;
+    padding: 10px;
+}
+.box{
+    background-color: white;
+    height: 550px;
+    position: relative;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 5px black;
+    color: #396ce8;
+}
+
+.position-absolute {
+    z-index: 10; /* làm cho cái nhãn luôn nằm trên */
+}
+
+img{
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    transition: 0.5s ease;
+    display:block;
+}
+
+.box:hover img{
+    transform: translateY(-10px); 
+    transition: 0.5s ease;
+}
+
+.badge_mauMoi{
+    left: 65px;
+    
+}
+
+.badge_traGop1{
+    background-color: lightgrey;
+    
+}
+
+.col-6{
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.badge_mauMoi, .badge_traGop1, .badge_hot {
+    font-size: 1rem !important; 
+}
+.box .btn { /* Nút xem chi tiết */
+    font-size: 0.8rem !important;
+    padding: 0.5rem 0.8rem !important;
+    margin: 0.5rem !important; 
+}
